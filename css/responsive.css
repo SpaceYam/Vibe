@@ -1,0 +1,71 @@
+@media(max-width:1100px) {
+  .nav {
+    justify-content: flex-end;
+  }
+
+  .nav button {
+    font-size: 12px;
+    padding: 7px;
+  }
+
+  .course-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .exam-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:760px) {
+  .topbar {
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px 4%;
+  }
+
+  .nav {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  main {
+    width: 94%;
+    margin: 22px auto;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-grid,
+  .two-column,
+  .profile-page {
+    grid-template-columns: 1fr;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-intro h1 {
+    font-size: 38px;
+  }
+
+  .profile-page {
+    gap: 25px;
+  }
+
+  .page-heading, .welcome {
+    align-items: flex-start;
+  }
+
+  .chat-input {
+    flex-direction: column;
+  }
+
+  .chat-input button {
+    width: 100%;
+  }
+}
